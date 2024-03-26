@@ -1,0 +1,46 @@
+.container{
+    width: auto;
+    height: 1000px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.post{
+    width: 500px;
+    height: 700px; ;
+    background: white;
+    margin: 600px
+;
+    
+}
+.postheader{
+    display: flex; 
+    align-items: baseline; 
+    height: 50px;  
+    background: white; 
+}
+.logo{
+    margin: 10px;
+}
+.textl{
+   font-size: small;
+   display: flex;
+   flex-flow: column;
+   gap: 1px;
+}
+.dots{
+    float: right;
+    padding-left: 400px;
+}
+.postimg{
+    height: 500px;
+}
+.posticons{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+.righticon{
+    margin-left: 380px;
+}
