@@ -1,0 +1,59 @@
+.container{
+    width: auto;
+    height: 1000px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid green; 
+}
+.post{
+    width: 500px;
+    height: 750px; ;
+    background: white;
+    margin: auto
+;
+    
+}
+.postheader{
+    display: flex; 
+    align-items: baseline;
+    background: white; 
+    padding-bottom: 10px;
+}
+.logo{
+    margin: 10px;
+   
+}
+.textl{
+   font-size: small;
+}
+H4{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+.caption{
+    padding: 10px;
+}
+.dots{
+    float: right;
+    padding-left: 400px;
+}
+.postimg{
+    height: 500px;
+}
+.post-body{
+    padding: 5px;
+    border: 3px solid blue;
+}
+.posticons{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+.righticon{
+    margin-left: 380px;
+}
